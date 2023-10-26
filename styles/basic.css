@@ -1,0 +1,60 @@
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.container {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+body {
+    margin: 0;
+    font-family: 'PT Root';
+    font-style: normal;
+    font-weight: medium;
+    font-size: 16px;
+    color: #201D1B;
+    min-width: 1440px;
+    background-color: #FFFFFF;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.sticky-elements {
+    margin-bottom: 15px;
+
+    position: sticky;
+    bottom: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.sticky-elements__cookie {
+    margin: 0 50px 0 95px;
+}

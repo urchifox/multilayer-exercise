@@ -1,0 +1,25 @@
+.footer {
+    color: white;
+    background-color: #041334;
+    padding: 30px 0;
+}
+
+.footer__container {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-menu {
+    display: flex;
+    justify-content: flex-end;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.footer__logo {
+    flex-shrink: 0;
+    margin-right: 30px;
+}
+

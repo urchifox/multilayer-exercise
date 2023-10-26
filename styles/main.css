@@ -1,0 +1,92 @@
+/* LEAD */
+
+.lead {
+    height: 600px;
+    padding-top: 150px;
+    box-sizing: border-box;
+}
+
+.main__lead {
+    position: relative;
+    margin: 0 auto 120px;
+}
+
+.lead__picture {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.lead__heading {
+    margin: 0 0 20px 0;
+}
+
+.lead__description {
+    margin: 0 0 60px 0;
+}
+
+.lead__link {
+    margin: 0;
+}
+
+/* CATALOG */
+
+.main__catalog {
+    margin-bottom: 120px;
+}
+
+.catalog__heading {
+    margin: 0 0 50px 0;
+}
+
+.catalog__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px 30px;
+}
+
+.coffe-card {
+    width: 255px;
+}
+
+.coffe-card__link {
+    display: flex;
+    flex-direction: column;
+}
+
+.card__description {
+    display: grid;
+    gap: 5px 10px;
+    grid-template-areas: 
+        "name price"
+        "country weight";
+}
+
+.card__heading {
+    margin: 0;
+    grid-area: name;
+}
+
+.card__country {
+    margin: 0;
+    grid-area: country;
+}
+
+.card__price {
+    margin: 0;
+    grid-area: price;
+}
+
+.card__weight {
+    margin: 0;
+    grid-area: weight;
+}
+
+.card__picture {
+    order: -1;
+    padding: 0 10px;
+    margin: 0 0 20px 0;
+}
