@@ -3,3 +3,30 @@
 @import url(footer.css);
 @import url(up-button.css);
 @import url(cookie-message.css);
+
+@font-face {
+    font-family: "PT Root";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("fonts/pt-root-regular.woff2") format("woof2"),
+    url("fonts/pt-root-regular.woff") format("woof");
+}
+
+@font-face {
+    font-family: "PT Root";
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url("fonts/pt-root-medium.woff2") format("woof2"),
+    url("fonts/pt-root-medium.woff") format("woof");
+}
+
+@font-face {
+    font-family: "PT Root";
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url("fonts/pt-root-bold.woff2") format("woof2"),
+    url("fonts/pt-root-bold.woff") format("woof");
+}
