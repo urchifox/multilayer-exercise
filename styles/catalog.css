@@ -1,39 +1,15 @@
-/* LEAD */
-
-.lead {
-    height: 600px;
-    padding-top: 150px;
-    box-sizing: border-box;
-
-    background-image: url("../images/main-picture.jpg");
-    background-size: cover;
-}
-
-.main__lead {
-    position: relative;
-    margin-bottom: 120px;
-}
-
-.lead__heading {
-    margin-bottom: 20px;
-}
-
-.lead__description {
-    margin-bottom: 60px;
-}
-
-.lead__link {
-
-}
-
-/* CATALOG */
-
 .main__catalog {
     margin-bottom: 120px;
 }
 
 .catalog__heading {
+    margin-top: 0;
     margin-bottom: 50px;
+
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 140%;
+    text-align: center;
 }
 
 .catalog__list {
@@ -63,21 +39,39 @@
 .card__heading {
     margin: 0;
     grid-area: name;
+
+    font-size: 18px;
+    line-height: 140%;
 }
 
 .card__country {
     margin: 0;
     grid-area: country;
+
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 140%;
 }
 
 .card__price {
     margin: 0;
     grid-area: price;
+
+    
+    font-size: 18px;
+    line-height: 140%;
+    text-align: end;
 }
 
 .card__weight {
     margin: 0;
     grid-area: weight;
+
+    
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 140%;
+    text-align: end;
 }
 
 .card__picture {

@@ -13,12 +13,16 @@
     max-width: 920px;
     box-sizing: border-box;
 
-    background-color: #553B2C;
-    color: white;
+    background-color: var(--accent-color);
+    color: var(--light-color-basic);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 120%;
 }
 
 .cookie__text {
     margin: 0;
+    
 }
 
 .cookie__buttons {
@@ -32,4 +36,21 @@
     width: 123px;
     height: 31px;
     box-sizing: border-box;
+
+    font-family: 'PT Root';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.cookie__btn_solid {
+    color: var(--accent-color);
+    background-color: var(--light-color-basic);
+    border: none;
+}
+
+.cookie__btn_bordered {
+    background-color: transparent;
+    color: var(--light-color-basic);
+    border: 1px solid;
 }

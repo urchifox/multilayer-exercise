@@ -1,0 +1,41 @@
+.lead {
+    height: 600px;
+    padding-top: 150px;
+    box-sizing: border-box;
+
+    background-image: url("../images/main-picture.jpg");
+    background-size: cover;
+}
+
+.main__lead {
+    position: relative;
+    margin-bottom: 120px;
+}
+
+.lead__heading {
+    margin-top: 0;
+    margin-bottom: 20px;
+
+    width: 590px;
+
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 140%;
+}
+
+.lead__description {
+    margin-bottom: 60px;
+
+    width: 445px;
+
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.lead__link {
+    color: var(--accent-color);
+
+    font-size: 18px;
+    line-height: 140%;
+}
