@@ -34,8 +34,25 @@
 }
 
 .lead__link {
+    position: relative;
+
+    padding-right: 44px;
     color: var(--accent-color);
 
     font-size: 18px;
     line-height: 140%;
+}
+
+.lead__link::after {
+    content: "";
+
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+
+    width: 29px;
+    height: 11px;
+
+    background-image: url("../images/thin-arrow.svg");
 }

@@ -43,3 +43,50 @@
     font-size: 14px;
     font-weight: 400;
 }
+
+.user-menu__link {
+    position: relative;
+    padding-left: 29px;
+}
+
+.user-menu__link_login::before {
+    content: "";
+    
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+
+    width: 24px;
+    height: 24px;
+    background-image: url(../images/user-icon.svg);
+    background-size: contain;
+}
+
+.user-menu__link_favourites::before {
+    content: "";
+
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+
+    width: 24px;
+    height: 24px;
+    background-image: url(../images/heart-icon.svg);
+    background-size: contain;
+}
+
+.user-menu__link_cart::before {
+    content: "";
+
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+
+    width: 24px;
+    height: 24px;
+    background-image: url(../images/cart-icon.svg);
+    background-size: contain;
+}
