@@ -3,14 +3,21 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="Description" content="Travel Guide">
-        <title>Travel Guide</title>
+        <meta name="Description" content="Coffee shop">
+        <title>Coffee shop</title>
         <link rel="stylesheet" href="styles/style.css">
       </head>
       <body>
+        <section class="cookie">
+          <p class="cookie__text">Продолжая пользоваться сайтом, вы соглашаетесь с использованием файлов cookie.</p>
+          <div class="cookie__buttons">
+            <button class="cookie__btn cookie__btn_solid">Принять</button>
+            <button class="cookie__btn cookie__btn_bordered">Закрыть</button>
+          </div>
+        </section>
         <header class="header">
           <nav class="navigation container">
-            <a href="#" class="logo">
+            <a href="#" class="header__logo">
               <img src="images/logo.svg" alt="Логотип фирмы" class="logo__image" width="122px" height="56px">
               <span class="visually-hidden">Перейти на главную страницу</span>
             </a>
@@ -44,20 +51,19 @@
             </ul>
           </nav>
         </header>
-        <main class="main">
-          <section class="lead main__lead" id="lead">
+        <main class="main"  id="start"> 
+          <section class="lead main__lead">
             <div class="container">
               <h1 class="lead__heading">Лучшие сорта кофе с доставкой по всей России</h1>
               <p class="lead__description">Более 50 сортов свежеобжаренного кофе для всех способов приготовления</p>
               <a href="" class="lead__link">Выбрать кофе</a>
             </div>
-            <img src="images/main-picture.jpg" alt="Чашка ароматного черного кофе и свежеобжаренные кофейные зерна" class="lead__picture" width="1440px" height="600px">
           </section>
           <section class="catalog main__catalog container">
             <h2 class="catalog__heading section-heading">Новинки</h2>
             <ul class="catalog__list">
-              <li class="catalog__item coffe-card">
-                <a href="#" class="coffe-card__link">
+              <li class="catalog__item coffee-card">
+                <a href="#" class="coffee-card__link">
                   <div class="card__description">
                     <h3 class="card__heading">Супримо La Marca</h3>
                     <p class="card__country">Бразилия</p>
@@ -67,8 +73,8 @@
                   <img src="images/coffe-la-marka.jpg" alt="Зерна сорта Супримо La Marca" class="card__picture" width="235px" height="235px">
                 </a>
               </li>
-              <li class="catalog__item coffe-card">
-                <a href="#" class="coffe-card__link">
+              <li class="catalog__item coffee-card">
+                <a href="#" class="coffee-card__link">
                   <div class="card__description">
                     <h3 class="card__heading">Марципан dddddddddddd dddddddddddd dd</h3>
                     <p class="card__country">Колумбия</p>
@@ -78,8 +84,8 @@
                   <img src="images/coffe-marcipan.jpg" alt="Зерна сорта Марципан" class="card__picture" width="235px" height="235px">
                 </a>
               </li>
-              <li class="catalog__item coffe-card">
-                <a href="#" class="coffe-card__link">
+              <li class="catalog__item coffee-card">
+                <a href="#" class="coffee-card__link">
                   <div class="card__description">
                     <h3 class="card__heading">Тоффи</h3>
                     <p class="card__country">Эфиопия</p>
@@ -89,8 +95,8 @@
                   <img src="images/coffe-toffy.jpg" alt="Зерна сорта Тоффи" class="card__picture" width="235px" height="235px">
                 </a>
               </li>
-              <li class="catalog__item coffe-card">
-                <a href="#" class="coffe-card__link">
+              <li class="catalog__item coffee-card">
+                <a href="#" class="coffee-card__link">
                   <div class="card__description">
                     <h3 class="card__heading">Амаретто</h3>
                     <p class="card__country">Куба</p>
@@ -101,8 +107,8 @@
                 </a>
               </li>
               
-              <li class="catalog__item coffe-card">
-                <a href="#" class="coffe-card__link">
+              <li class="catalog__item coffee-card">
+                <a href="#" class="coffee-card__link">
                   <div class="card__description">
                     <h3 class="card__heading">Марципан dddddddddddd dddddddddddd dd</h3>
                     <p class="card__country">Колумбия</p>
@@ -112,8 +118,8 @@
                   <img src="images/coffe-marcipan.jpg" alt="Зерна сорта Марципан" class="card__picture" width="235px" height="235px">
                 </a>
               </li>
-              <li class="catalog__item coffe-card">
-                <a href="#" class="coffe-card__link">
+              <li class="catalog__item coffee-card">
+                <a href="#" class="coffee-card__link">
                   <div class="card__description">
                     <h3 class="card__heading">Тоффи</h3>
                     <p class="card__country">Эфиопия</p>
@@ -123,8 +129,8 @@
                   <img src="images/coffe-toffy.jpg" alt="Зерна сорта Тоффи" class="card__picture" width="235px" height="235px">
                 </a>
               </li>
-              <li class="catalog__item coffe-card">
-                <a href="#" class="coffe-card__link">
+              <li class="catalog__item coffee-card">
+                <a href="#" class="coffee-card__link">
                   <div class="card__description">
                     <h3 class="card__heading">Амаретто</h3>
                     <p class="card__country">Куба</p>
@@ -136,14 +142,9 @@
               </li>
             </ul>
           </section>
-        </main>
-        <div class="sticky-elements container">
-          <section class="cookie sticky-elements__cookie">
-            <p class="cookie__text">Продолжая пользоваться сайтом, вы соглашаетесь с использованием файлов cookie.</p>
-            <button class="cookie__btn cookie__btn_solid">Принять</button>
-            <button class="cookie__btn cookie__btn_bordered">Закрыть</button>
-          </section>
-          <a href="#lead" class="scroll-up-btn"><span class="visually-hidden">Вернуться в начало</span></a>
+         </main>
+        <div class="container scroll-up">
+          <a href="#start" class="scroll-up__btn"><span class="visually-hidden">Вернуться в начало</span></a>
         </div>
         <footer class="footer">
           <div class="container footer__container">

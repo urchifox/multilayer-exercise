@@ -1,21 +1,18 @@
 .footer {
-    color: white;
-    background-color: #041334;
+    margin-top: auto;
+
     padding: 30px 0;
+
+    background-color: white;
+    filter: drop-shadow(0px -4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .footer__container {
     position: relative;
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.footer-menu {
-    display: flex;
-    justify-content: flex-end;
-    gap: 25px;
-    flex-wrap: wrap;
 }
 
 .footer__logo {
@@ -23,3 +20,9 @@
     margin-right: 30px;
 }
 
+.footer-menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 25px;
+}

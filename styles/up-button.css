@@ -1,7 +1,19 @@
-.scroll-up-btn {
+.scroll-up {
+    position: sticky;
+    bottom: 0;
     
+    display: flex;
+    justify-content: flex-end;
+}
+
+.scroll-up__btn {
+    margin-top: -60px;
     display: block;
     width: 45px;
     height: 45px;
-    background-color: #041334;
+    background-color: #553B2C;
+}
+
+.scroll-up__btn_hidden {
+    display: none;
 }

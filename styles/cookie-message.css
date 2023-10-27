@@ -1,12 +1,19 @@
 .cookie {
-    /* position: fixed; */
+    position: fixed;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+
     display: flex;
     align-items: center;
-
+    gap: 30px;
+    
     padding: 13px 30px;
-    width: 920px;
+    max-width: 920px;
     box-sizing: border-box;
-    background-color: #041334;
+
+    background-color: #553B2C;
     color: white;
 }
 
@@ -14,10 +21,15 @@
     margin: 0;
 }
 
+.cookie__buttons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
 .cookie__btn {
-    /* padding: 7px; */
+    flex-shrink: 0;
     width: 123px;
     height: 31px;
-    margin-left: 15px;
     box-sizing: border-box;
 }

@@ -18,12 +18,17 @@
 
 body {
     margin: 0;
+    min-width: 1440px;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+
     font-family: 'PT Root';
     font-style: normal;
     font-weight: medium;
     font-size: 16px;
     color: #201D1B;
-    min-width: 1440px;
     background-color: #FFFFFF;
 }
 
@@ -42,19 +47,4 @@ img {
     max-width: 100%;
     height: auto;
     display: block;
-}
-
-.sticky-elements {
-    margin-bottom: 15px;
-
-    position: sticky;
-    bottom: 20px;
-
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-}
-
-.sticky-elements__cookie {
-    margin: 0 50px 0 95px;
 }

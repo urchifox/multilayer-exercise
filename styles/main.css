@@ -4,31 +4,26 @@
     height: 600px;
     padding-top: 150px;
     box-sizing: border-box;
+
+    background-image: url("../images/main-picture.jpg");
+    background-size: cover;
 }
 
 .main__lead {
     position: relative;
-    margin: 0 auto 120px;
-}
-
-.lead__picture {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: -1;
+    margin-bottom: 120px;
 }
 
 .lead__heading {
-    margin: 0 0 20px 0;
+    margin-bottom: 20px;
 }
 
 .lead__description {
-    margin: 0 0 60px 0;
+    margin-bottom: 60px;
 }
 
 .lead__link {
-    margin: 0;
+
 }
 
 /* CATALOG */
@@ -38,7 +33,7 @@
 }
 
 .catalog__heading {
-    margin: 0 0 50px 0;
+    margin-bottom: 50px;
 }
 
 .catalog__list {
@@ -48,11 +43,11 @@
     gap: 50px 30px;
 }
 
-.coffe-card {
+.coffee-card {
     width: 255px;
 }
 
-.coffe-card__link {
+.coffee-card__link {
     display: flex;
     flex-direction: column;
 }
@@ -88,5 +83,5 @@
 .card__picture {
     order: -1;
     padding: 0 10px;
-    margin: 0 0 20px 0;
+    margin-bottom: 20px;
 }
