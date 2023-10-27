@@ -63,6 +63,10 @@
     text-align: end;
 }
 
+.card__price::after {
+    content: "\20BD";
+}
+
 .card__weight {
     margin: 0;
     grid-area: weight;
@@ -72,6 +76,10 @@
     font-weight: 400;
     line-height: 140%;
     text-align: end;
+}
+
+.card__weight::after {
+    content: " гр.";
 }
 
 .card__picture {
