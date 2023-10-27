@@ -43,11 +43,20 @@
     line-height: 120%;
 }
 
+.cookie__btn:hover {
+    opacity: 0.7;
+}
+
+.cookie__btn:active {
+    opacity: 0.5;
+}
+
 .cookie__btn_solid {
     color: var(--accent-color);
     background-color: var(--light-color-basic);
     border: none;
 }
+
 
 .cookie__btn_bordered {
     background-color: transparent;

@@ -28,6 +28,19 @@
     flex-direction: column;
 }
 
+.coffee-card__link:visited {
+    color: inherit;
+}
+
+.coffee-card__link:hover {
+    text-decoration: none;
+    opacity: 0.7;
+}
+
+.coffee-card__link:active {
+    opacity: 0.5;
+}
+
 .card__description {
     display: grid;
     gap: 5px 10px;
@@ -82,8 +95,19 @@
     content: " гр.";
 }
 
-.card__picture {
+
+.card__picture-container {
     order: -1;
-    padding: 0 10px;
+    padding: 10px 10px;
     margin-bottom: 20px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.card__picture {
+    border-radius: 50%;
+}
+
+.coffee-card__link:hover .card__picture {
+    transform: scale(1.2);
 }

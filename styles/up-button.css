@@ -18,6 +18,14 @@
     background-position: 50%;
 }
 
+.scroll-up__btn:hover {
+    opacity: 0.7;
+}
+
+.scroll-up__btn:active {
+    opacity: 0.5;
+}
+
 .scroll-up__btn_hidden {
     display: none;
 }
